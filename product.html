@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPER MARKET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    .nav-image{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+    .hero-headings{
+        position: relative;
+        bottom: 150px;
+    }
+    .card-image{
+        text-align: center;
+        border-radius: 20px;
+        
+    }
+    .card-buttons{
+        text-align: center;
+    }
+    .card-image{
+        width: 100%;
+    }
+    .image-fluid{
+        width:100%;
+        height: 50%;
+        border-radius: 20px;
+    
+    }
+    .card-buttons{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-price{
+        font-size: 50px;
+        color: white;
+    }
+</style>
+<body>
+<div class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container-fluid">
+        <img src="logo.jpg" class="nav-image" alt="view image">
+        <a class="navbar-brand fs-1 fw-bold"  href="#">CITY SUPER MARKET</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center fw-bold fs-4" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="login.html">Login/Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Contact</a>
+                </li>
+                <button class="btn btn-lg btn-outline-primary bg-primary text-light" type="button">More</button>
+            </ul>
+            <input class="form-control w-25 ms-5" type="search" placeholder="🔍︎Search for products..." aria-label="Search">
+        </div>
+    </div>
+</div>
+<section class="hero">
+    <div class="hero-image mt-5">
+        <img src="hero.jpg" class="image-frame ms-3 rounded-pill" alt="image">
+        <div class="hero-headings text-center text-danger">
+            <h1 class="hero-title">EFFORTLESS ORDERINGS</h1>
+            <p class="hero-text fs-5 fw-bold">The solutions to your essential needs.</p>
+            <button class="btn btn-success">Shop Now</button>
+            <button class="btn btn-success">Explore</button>
+        </div>
+    </div>
+</section>
+<div class="container-fluid">
+    <div class="product-card d-flex gap-5">
+        <div class="card-image bg-secondary">
+            <img src="kitchen.jpg" class="image-fluid" alt="">
+            <div class="card-headings">
+                <h1 class="card-title">Daily kitchen</h1>
+                <p class="card-text">Cutting board,mini chopper,peeler,bottle opener,spoons and measuring cups</p>
+                <span class="card-price">₹299</span>
+            </div>
+            <div class="card-buttons d-flex gap-2 mt-3">
+                <button class="border-dark fs-5">+</button>
+                <p class="fs-5">1</p>
+                <button class="border-dark fs-5">-</button>
+            </div>
+            <button class="btn btn-success mt-3 w-75"> Add to cart</button>
+        </div>
+        <div class="card-image bg-secondary">
+            <img src="household.jpg" class="image-fluid" alt="">
+            <div class="card-headings">
+                <h1 class="card-title">Household</h1>
+                <p class="card-text">Liquid soaps,utensil care,kitchen counters,stovetops,floor care,kitchen slabs</p>
+                <span class="card-price">₹199</span>
+            </div>
+            <div class="card-buttons d-flex gap-2 mt-3">
+                <button class="border-dark fs-5">+</button>
+                <p class="fs-5">1</p>
+                <button class="border-dark fs-5">-</button>
+            </div>
+            <button class="btn btn-success mt-3 w-75"> Add to cart</button>
+        </div>
+        <div class="card-image bg-secondary">
+            <img src="spices.jpg" class="image-fluid" alt="">
+            <div class="card-headings">
+                <h1 class="card-title">Grains & Flours</h1>
+                <p class="card-text">Sona massori,atta,maida,oats,parboiled and cornflakes</p>
+                <span class="card-price">₹149</span>
+            </div>
+            <div class="card-buttons d-flex gap-2 mt-3">
+                <button class="border-dark fs-5">+</button>
+                <p class="fs-5">1</p>
+                <button class="border-dark fs-5">-</button>
+            </div>
+            <button class="btn btn-success mt-3 w-75"> Add to cart</button>
+        </div>
+        <div class="card-image bg-secondary">
+            <img src="pulses.jpg" class="image-fluid" alt="">
+            <div class="card-headings">
+                <h1 class="card-title">Pulses & spices</h1>
+                <p class="card-text">Toor dal,moog dal,sunflower oil,white sugar and coriander</p>
+                <span class="card-price">₹249</span>
+            </div>
+            <div class="card-buttons d-flex gap-2 mt-3">
+                <button class="border-dark fs-5">+</button>
+                <p class="fs-5">1</p>
+                <button class="border-dark fs-5">-</button>
+            </div>
+            <button class="btn btn-success mt-3 w-75"> Add to cart</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt-5">
+    <div class="product-card d-flex gap-5">
+        <div class="card-image bg-secondary">
+            <img src="fresh.jpg" class="image-fluid" alt="">
+            <div class="card-headings">
+                <h1 class="card-title">Dairy & Fresh</h1>
+                <p class="card-text">Packeged milk,curd,rusks,cakes,fresh eggs,ice cream,potatoes and onions</p>
+                <span class="card-price">₹349</span>
+            </div>
+            <div class="card-buttons d-flex gap-2 mt-3">
+                <button class="border-dark fs-5">+</button>
+                <p class="fs-5">1</p>
+                <button class="border-dark fs-5">-</button>
+            </div>
+            <button class="btn btn-success mt-3 w-75"> Add to cart</button>
+        </div>
+        <div class="card-image bg-secondary">
+            <img src="snacks.jpg" class="image-fluid" alt="">
+            <div class="card-headings">
+                <h1 class="card-title">Beverage&Snack</h1>
+                <p class="card-text">Tea,Coffee,Parle-G,Potato Chips,Marie,Pasta,Almonds and Cashews</p>
+                <span class="card-price">₹449</span>
+            </div>
+            <div class="card-buttons d-flex gap-2">
+                <button class="border-dark fs-5">+</button>
+                <p class="fs-5">1</p>
+                <button class="border-dark fs-5">-</button>
+            </div>
+            <button class="btn btn-success mt-5 w-75"> Add to cart</button>
+        </div>
+          <div class="card-image bg-secondary">
+            <img src="personal.jpg" class="image-fluid" alt="">
+            <div class="card-headings">
+                <h1 class="card-title">Perosnal Care</h1>
+                <p class="card-text">Soaps, shampoos, toothpastes, hair oil, deodorants, and sanitary products</p>
+                <span class="card-price">₹99</span>
+            </div>
+            <div class="card-buttons d-flex gap-2 mt-3">
+                <button class="border-dark fs-5">+</button>
+                <p class="fs-5">1</p>
+                <button class="border-dark fs-5">-</button>
+            </div>
+            <button class="btn btn-success mt-3 w-75"> Add to cart</button>
+        </div>
+          <div class="card-image bg-secondary">
+            <img src="vegtables.jpg" class="image-fluid" alt="">
+            <div class="card-headings">
+                <h1 class="card-title">Vegetables&Fruits</h1>
+                <p class="card-text"> Detergent powders, fabric conditioners, floor cleaners, dishwashing liquids, and toilet cleaners.</p>
+                <span class="card-price">₹49</span>
+            </div>
+            <div class="card-buttons d-flex gap-2 mt-3">
+                <button class="border-dark fs-5">+</button>
+                <p class="fs-5">1</p>
+                <button class="border-dark fs-5">-</button>
+            </div>
+            <button class="btn btn-success mt-3 w-75"> Add to cart</button>
+        </div>
+    </div>
+</div>
+<footer class="footer-header mt-5 bg-info text-white ">
+  <div class="container-fluid d-flex justify-content-between">
+    <div class="footer-box">
+      <h2 class="quick-title text-danger mt-2 text-center mb-3 fw-bold">CITY SUPER MARKET</h2>
+      <ul class="text-center fs-5 fw-bold list-unstyled">
+        <li class="footer-items"><a class="nav-link text-dark" href="#">About Us</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Privacy Policy</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Categories</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Brands</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Contact </a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="service-title text-warning text-center mt-2 fw-bold">Categories</h2>
+      <ul class="text-center fs-5  fw-bold list-unstyled">
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Oils</a></li>
+        <li class="footer-items"><a class="nav-link text-dark"href="#">Milks</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Other Juices</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Eggs</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Namkeen</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="product-title text-warning text-center mt-2 fw-bold">Brands</h2>
+      <ul class="text-center fs-5 fw-bold list-unstyled">
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Amul</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Red Bull</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Britania</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Nescafe</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Pediasure</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="contact-title text-warning text-center mt-2 fw-bold">Contact us</h2>
+        <p class="fs-5 text-dark fw-bold lh-lg">Email:CitySuperMarket@gmail.com</p>
+        <p class="fs-5 text-dark fw-bold lh-lg">Phone:+91 9475152152</p>
+        <p class="fs-5 text-dark fw-bold lh-lg">Location:Bengaluru,Karnataka</p>
+    </div>
+    <div class="social-links ">            
+      <h3 class="social-title text-warning text-center mt-2 fw-bold">Social Links</h3>
+      <div class="social-text">
+        <p class="fs-5 text-dark lh-lg">🅾𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 ★</p>
+      </div>
+    
+      <div class="social-text">
+        <p class="fs-5 text-dark fw-bold lh-lg">ⓕFacebook</p>
+      </div>
+    
+      <div class="social-text">
+        <p class="fs-5 text-dark fw-bold lh-lg">𝕏Twitter𝕏</p>
+      </div>
+    </div>     
+   
+</footer>
+<div class="footer-bottom bg-info border-top">
+    <p class="footer-content text-center fs- fw-bold">Copyright@citysupermarket||All are reserved.</p>
+</div>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

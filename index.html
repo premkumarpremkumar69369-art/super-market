@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPER MARKET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav-image{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .d-block{
+        width: 100%;
+        height:600px;
+    }
+    .image-fluid{
+        width: 200px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    .image-title{
+        text-transform: uppercase;
+    }
+
+
+</style>
+<body>
+<div class="navbar navbar-expand-lg navbar-light bg-warning">
+    <div class="container-fluid">
+        <img src="logo.jpg" class="nav-image" alt="view image">
+        <a class="navbar-brand fs-1 fw-bold"  href="#">CITY SUPER MARKET</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center fw-bold fs-4" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="product.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="login.html">Login/Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Contact</a>
+                </li>
+                <button class="btn btn-lg btn-outline-primary bg-primary text-light" type="button">More</button>
+            </ul>
+            <input class="form-control w-25 ms-5" type="search" placeholder="🔍︎Search for products..." aria-label="Search">
+        </div>
+    </div>
+</div>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image1.jpg" class="d-block mt-1" alt="view image">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="slide-title fw-bold">CITY SUPER MARKET...!!!</h5>
+        <p class="slide-text fw-bold">FRESH FINDS IN THE HEART OF THE CITY!!!</p>
+        <button class="btn btn-danger">Shop Now</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image2.jpg" class="d-block w-100 mt-1" alt="view image">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="slide-title fw-bold">FRUITS</h5>
+        <p class="slide-text fw-bold">Fruits are at best prices.</p>
+        <button class="btn btn-danger">Shop Now</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image3.jpg" class="d-block w-100" alt="view image">
+      <div class="carousel-caption d-none d-md-block mt-1">
+        <h5 class="slide-title fw-bold">VEGETABLES</h5>
+        <p class="silde-text fw-bold">Next Day Orders!Prices are subject to change according to market price flutuations.</p>
+        <button class="btn btn-danger">Shop Now</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<section class="hero ">
+    <h1 class="page-heading mt-3 text-center">VEGETABLES AND FRUITS</h1>
+    <div class="container-fluid d-flex mt-5 text-center  justify-content-center justify-content-between">
+        <div class="image-card ">
+            <div class="section-image">
+                <img src="carrots.jpg" class="image-fluid " alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title mt-3">Carrot</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="beetroots.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title mt-3">Beet Root</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="garlic.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Garlics</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="apple.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Apple</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="orange.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Orange</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+    </div>
+    <h1 class="page-headings mt-5 text-center mb-5">GROCERIES</h1>
+    <div class="container-fluid d-flex text-center justify-content-center justify-content-between">
+       
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="soaps.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Soaps</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="liquids.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Liquids</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="pulses and spices.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Pulses & Spices</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="snacks.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Snacks</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="icecreams.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Ice creams</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+    </div>
+    <h1 class="page-headings mt-5 text-center mb-5">Beauty & Hygience</h1>
+    <div class="container-fluid d-flex text-center mb-5 justify-content-center justify-content-between">
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="serums.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Serums</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="perfumes.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Perfumes</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="lotions.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Lotions</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="lipsticks.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Lip Sticks</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+        <div class="image-card">
+            <h1 class="section-title"></h1>
+            <div class="section-image">
+                <img src="eyeshadow.jpg" class="image-fluid" alt="view image">
+            </div>
+            <div class="section-header">
+                <h3 class="image-title  mt-3">Eye Shadow Palette</h3>
+                <span class="image-off">UP TO 20% OFF</span>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer-header  bg-info text-white">
+  <div class="container-fluid d-flex justify-content-between">
+    <div class="footer-box">
+      <h2 class="quick-title text-danger mt-2 text-center mb-3 fw-bold">CITY SUPER MARKET</h2>
+      <ul class="text-center fs-5 fw-bold list-unstyled">
+        <li class="footer-items"><a class="nav-link text-dark" href="#">About Us</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Privacy Policy</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Categories</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Brands</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Contact </a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="service-title text-warning text-center mt-2 fw-bold">Categories</h2>
+      <ul class="text-center fs-5  fw-bold list-unstyled">
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Oils</a></li>
+        <li class="footer-items"><a class="nav-link text-dark"href="#">Milks</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Other Juices</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Eggs</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Namkeen</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="product-title text-warning text-center mt-2 fw-bold">Brands</h2>
+      <ul class="text-center fs-5 fw-bold list-unstyled">
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Amul</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Red Bull</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Britania</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Nescafe</a></li>
+        <li class="footer-items"><a class="nav-link text-dark" href="#">Pediasure</a></li>
+      </ul>
+    </div>
+    <div class="footer-box">
+      <h2 class="contact-title text-warning text-center mt-2 fw-bold">Contact us</h2>
+        <p class="fs-5 text-dark fw-bold lh-lg">Email:CitySuperMarket@gmail.com</p>
+        <p class="fs-5 text-dark fw-bold lh-lg">Phone:+91 9475152152</p>
+        <p class="fs-5 text-dark fw-bold lh-lg">Location:Bengaluru,Karnataka</p>
+    </div>
+    <div class="social-links ">            
+      <h3 class="social-title text-warning text-center mt-2 fw-bold">Social Links</h3>
+      <div class="social-text">
+        <p class="fs-5 text-dark lh-lg">🅾𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 ★</p>
+      </div>
+    
+      <div class="social-text">
+        <p class="fs-5 text-dark fw-bold lh-lg">ⓕFacebook</p>
+      </div>
+    
+      <div class="social-text">
+        <p class="fs-5 text-dark fw-bold lh-lg">𝕏Twitter𝕏</p>
+      </div>
+    </div>     
+   
+</footer>
+<div class="footer-bottom bg-info border-top">
+    <p class="footer-content text-center fs- fw-bold">Copyright@citysupermarket||All are reserved.</p>
+</div>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
